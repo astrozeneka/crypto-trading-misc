@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fmodern\fcharset0 Courier;
+\f3\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red245\green247\blue251;\red56\green56\blue59;
+\red255\green255\blue10;\red59\green66\blue80;\red139\green71\blue130;\red58\green93\blue165;\red210\green0\blue53;
+\red209\green44\blue52;\red255\green255\blue255;\red255\green255\blue10;\red252\green73\blue64;\red97\green107\blue123;
+}
+{\*\expandedcolortbl;;\cssrgb\c20000\c20000\c20000;\cssrgb\c96863\c97647\c98824;\cssrgb\c28235\c28235\c29804;
+\cssrgb\c99942\c98555\c0;\cssrgb\c29412\c32941\c38824;\cssrgb\c61961\c36863\c58039;\cssrgb\c28627\c45098\c70588;\cssrgb\c86667\c6667\c26667;
+\cssrgb\c86275\c26275\c26275;\cssrgb\c100000\c100000\c100000;\cssrgb\c99942\c98555\c0;\cssrgb\c100000\c38374\c31601;\cssrgb\c45490\c49804\c55686;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+https://www.quantconnect.com/docs/v2/writing-algorithms/strategy-library\
+\
+
+\f1\b Argent dans le Portefeuille
+\f0\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb5 usd \cf6 =\cf4  \cf7 self\cf6 .\cf8 Portfolio\cf6 .\cf8 CashBook\cf6 [\cf9 "USD"\cf6 ].\cf8 Amount
+\f0 \cf2 \cb3 \
+\
+sdf\
+\
+Portfolio : dictionnary\
+value : 
+\f3\fs32 \cf10 \cb11 SecurityHolding
+\f0\fs26 \cf2 \cb3 \
+
+\f2 \cf4 security_holding \cf6 =\cf4  \cf7 self\cf6 .\cf8 Portfolio\cf6 [\cf9 "SPY"\cf6 ]
+\f0 \cf2 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb5 security_holding.Quantity()\cb3 \
+\cb5 security_holding.Price()
+\f0 \cf2 \cb3 \
+
+\f2 \cf4 \cb5 security_holding.AbsoluteHoldingsValue()
+\f0 \cf2 \cb3 \
+\
+\
+\'c9criture des courbes de prix \cb12 (montrer la valeur deux fois le d\'e9riv\'e9)\cb3 \
+Faire sortir une \cb12 courbe compr\'e9hensible\cb3  (\'e0 envoyer par mail au client)\
+\
+\
+Documentation sur les \cb12 fonctions tiers\cb3 \
+Liquidate, Invested, CalculateOrderQuantity, Portfolio\
+Schedule\
+\
+np: mean, std\
+deque\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb13 Algorithme d\'92apprentissage espac\'e9\
+Faire en sorte que le moment opportun pour apprendre soit > 1\
+Ajout et adaptation d\'92un coefficient de rapprochement entre deux notes proches\cb3 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf14 \cb11 formation period
+\f0\fs26 \cf2 \cb3 \
+\
+\
+\
+}
